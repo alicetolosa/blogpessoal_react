@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create ({
-    baseURL: "https://blogpessoal-nest-8ryn.onrender.com"
+    baseURL: "https://blogpessoal-nest-664p.onrender.com"
 })
 
 //metodo de acesso a api para cadastrar usuario
