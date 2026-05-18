@@ -49,7 +49,7 @@ function Cadastro() {
 
       try{
         await cadastrarUsuario(`/usuarios/cadastrar`, usuario, setUsuario)
-        ToastAlerta("Usuário cadastrado com sucesso!", "sucesso")
+        ToastAlerta("Usuário cadastrado com sucesso!✔", "sucesso")
       }catch(error){
         ToastAlerta("Erro ao cadastrar o usuário!", "erro")
         
